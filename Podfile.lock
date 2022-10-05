@@ -1,0 +1,36 @@
+PODS:
+  - Cosmos (23.0.0)
+  - GoogleMaps (5.1.0):
+    - GoogleMaps/Maps (= 5.1.0)
+  - GoogleMaps/Base (5.1.0)
+  - GoogleMaps/Maps (5.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (7.0.0)
+  - OpalImagePicker (3.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - GoogleMaps (= 5.1.0)
+  - GooglePlaces
+  - OpalImagePicker
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - GoogleMaps
+    - GooglePlaces
+    - OpalImagePicker
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
+  GooglePlaces: 8dba710bed6160a2e4b85e84aaafdbcc0b4010d8
+  OpalImagePicker: 38e772dd93a54431fc516b33e1f337c50f745834
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 82ae2c5279a59fe985dc1a683678ac3097642ca2
+
+COCOAPODS: 1.11.2

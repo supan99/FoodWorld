@@ -1,0 +1,1427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GooglePlaces;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		166F82734F7A6BC517E6282A23FF6AAE /* Pods-FoodWorld-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AC3A0BEB5612077D1CF5DAAA9E434F /* Pods-FoodWorld-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB0D41CAC7FB368B357989E49DED6BB /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BE0A0DC05B3D2B5A4E2CE2D94C283 /* OpalImagePickerRootViewController.swift */; };
+		1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB930B0AFFD6F3FE987A4CA7370013 /* CosmosText.swift */; };
+		209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AAE557DDBB57363BB89EF0BF7DCAD5 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325CCDB295FFA016638075B5D2CEDD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79FE21FFAA074A1E5A9BA102534CBE /* CosmosRating.swift */; };
+		449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FE78DF1DED0C3B5FD11FD71C5427 /* CosmosTouchTarget.swift */; };
+		45F931E27068F407411AB97EBA6062D7 /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D1EF8D1C85896C387F0CF23BAAF57 /* OpalImagePickerController.swift */; };
+		4B6B03385F28A2497A7140EEE4D871A6 /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5B700F203546DB338F94B4316E782 /* Bundle+Helper.swift */; };
+		4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62AAAB5221837CE21391F6160986C6 /* CosmosSettings.swift */; };
+		56A66928C7572DEE5C0647491C97B56C /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DD04D9B43FB052B988784B09A74F1 /* TimeInterval+String.swift */; };
+		5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F20DE469F13569D0320A8DF55BBB5 /* StarFillMode.swift */; };
+		5FA526557719FDBE81B1974B113CF600 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F715EC310757C55B15507E367C320CD /* SwiftyJSON-dummy.m */; };
+		61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B19E40526227A2C920144F7FD62BB0 /* CosmosDefaultSettings.swift */; };
+		67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFEA514E5348DA423EB42E4066F1A53 /* Cosmos-dummy.m */; };
+		728CD1A26C49670E6638FA19AC10FC04 /* OpalImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C947DB6B1AD371B919AB9701716927F /* OpalImagePicker-dummy.m */; };
+		772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F8A4B3A5E5755AD7DCB8DCD317759 /* CosmosAccessibility.swift */; };
+		7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A2C74922D8C463CC7F4558B042A4D /* CosmosTouch.swift */; };
+		7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9D3F5C32E28C470F6A7ED35EA56F9 /* StarLayer.swift */; };
+		8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D482A922D012B2938A55901A0B1DB9 /* CosmosSize.swift */; };
+		8916A7DBD915AB122AAC6DE16109B218 /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428F3B5A93B6E5849542F12282560322 /* OpalImagePickerCollectionViewLayout.swift */; };
+		8C56F4E20763A0252B26848900E227F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8CAEF5423A0FB0555C8FE8BBAA80BCF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F2C558E629CC8087D36C517FB5463 /* RightToLeft.swift */; };
+		99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F606DFF3CC1FDFFFB3CF65F66F1E5 /* CosmosLayerHelper.swift */; };
+		A115142039C23F91827E6961CC479F05 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A8167927ABD7F79FF2894245583C21 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1CC537B085657A4F08CDC7D537C7499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5990C5E02C6734E1DD0EBE133CDCB0B4 /* Assets.xcassets */; };
+		A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD396153CFF6837EE22B494D3E5553 /* SwiftyJSON.swift */; };
+		A65440672B555F566C9CE4995FE0C353 /* OpalImagePicker-OpalImagePickerResources in Resources */ = {isa = PBXBuildFile; fileRef = 598756CCCB40FC98DA122084B3B8C925 /* OpalImagePicker-OpalImagePickerResources */; };
+		ABBFF480AA1F6216C1A288F096C6D963 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C16090DC2198739F22756615DF168B /* OpalImagePickerConfiguration.swift */; };
+		ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34169E1203E5DB79293987A151DE8963 /* CosmosLayers.swift */; };
+		AF156256588FB9B887728C18C6FD6B59 /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32826604E6762CC79B29A90DF5FBD04 /* UIViewController+OpalImagePicker.swift */; };
+		B4180ABCACAF8D2A681C09BEFC74CF41 /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB8D007CACD934A0B8010875F9E378 /* ImagePickerCollectionViewCell.swift */; };
+		CAD76A483D082ECBB29B0BE9906B3712 /* OpalImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 605E8E00F17095D3CF03AE8E4DE78A8A /* OpalImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E295FDDB927F8E701BB720110D94D17 /* CosmosLocalizedRating.swift */; };
+		E24C0B725094E3BB1048C5B589332F2D /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E26EFF47607D5FDCBCAE0EE752E62 /* UIView+Helper.swift */; };
+		EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D82BB7F97907DA490C29BD2E9960FF /* CosmosView.swift */; };
+		FA013139F934A391819FCC8BA1564F68 /* Pods-FoodWorld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02767E814CF0669BF8A76EFA5C71D4F3 /* Pods-FoodWorld-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A43930285AD766AF5B9D6FDEC296A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265D78AF28F751DE873B43A5E2BFD8C2;
+			remoteInfo = "OpalImagePicker-OpalImagePickerResources";
+		};
+		569329E2D1F3729B3A5EB7F0B9DB1317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		7894EC0FFD0E0DD5607AA9E321535511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		89387C3C9F1C739FEC57FC9E1EED88BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		9C7518F86C601DEDE2F2E9F1AAFACD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20485D6CEA89F18A813D04A2DFF7D56F;
+			remoteInfo = OpalImagePicker;
+		};
+		CDF59F4B76786F2DDD5237297D308901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F66D4D00D934E19913E6EEF5247A88 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		02767E814CF0669BF8A76EFA5C71D4F3 /* Pods-FoodWorld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodWorld-dummy.m"; sourceTree = "<group>"; };
+		046DD04D9B43FB052B988784B09A74F1 /* TimeInterval+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+String.swift"; path = "OpalImagePicker/Source/TimeInterval+String.swift"; sourceTree = "<group>"; };
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		078AE94ECD160820902ED073D3D4A5D3 /* Pods-FoodWorld-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodWorld-resources.sh"; sourceTree = "<group>"; };
+		07C16090DC2198739F22756615DF168B /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerConfiguration.swift; path = OpalImagePicker/Source/OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
+		0E1F4271B6287236304D02B7694D1F88 /* OpalImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpalImagePicker.modulemap; sourceTree = "<group>"; };
+		0E5063FA88D1807E39B9E6DB0BBF7851 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
+		11D482A922D012B2938A55901A0B1DB9 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		176BE0A0DC05B3D2B5A4E2CE2D94C283 /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerRootViewController.swift; path = OpalImagePicker/Source/OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
+		19D5B700F203546DB338F94B4316E782 /* Bundle+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Helper.swift"; path = "OpalImagePicker/Source/Bundle+Helper.swift"; sourceTree = "<group>"; };
+		1FA4CA6A44529A1F6D1D6BBC8904F056 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		2372B6EAD848EC80E19531EA6F535C80 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		252150294632719D7AD9F442284A3F04 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		295F8A4B3A5E5755AD7DCB8DCD317759 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		2A2A50CB25880DEE3F1868F106FAFB22 /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
+		2D6CA89C85A6F1A5B93DFD024DECD624 /* OpalImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpalImagePicker-Info.plist"; sourceTree = "<group>"; };
+		2E295FDDB927F8E701BB720110D94D17 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		31FDAEB8B32252AC6FC5837D898BDFC9 /* Pods-FoodWorld */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoodWorld"; path = Pods_FoodWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F9D3F5C32E28C470F6A7ED35EA56F9 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		34169E1203E5DB79293987A151DE8963 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		34CD396153CFF6837EE22B494D3E5553 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		428F3B5A93B6E5849542F12282560322 /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerCollectionViewLayout.swift; path = OpalImagePicker/Source/OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		474F20DE469F13569D0320A8DF55BBB5 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		484151C077E2CEBBCACC4EBBF7727D98 /* OpalImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpalImagePicker; path = OpalImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7634A49A3EC4346538AF7E95F13B07 /* OpalImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpalImagePicker.debug.xcconfig; sourceTree = "<group>"; };
+		4C7BB1F35410D82B84DAB96683EA89B6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		5057302797C35034CA906201443BF1FA /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		505D1EF8D1C85896C387F0CF23BAAF57 /* OpalImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpalImagePickerController.swift; path = OpalImagePicker/Source/OpalImagePickerController.swift; sourceTree = "<group>"; };
+		598756CCCB40FC98DA122084B3B8C925 /* OpalImagePicker-OpalImagePickerResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "OpalImagePicker-OpalImagePickerResources"; path = OpalImagePickerResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5990C5E02C6734E1DD0EBE133CDCB0B4 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = OpalImagePicker/SupportingFiles/Assets.xcassets; sourceTree = "<group>"; };
+		605E8E00F17095D3CF03AE8E4DE78A8A /* OpalImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpalImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		65DC851A379FE311678B6D184C00A7C4 /* OpalImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpalImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		6C947DB6B1AD371B919AB9701716927F /* OpalImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpalImagePicker-dummy.m"; sourceTree = "<group>"; };
+		6CB2C1A8A6B7D459C7C28C0231ECC4E5 /* Pods-FoodWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		71A665E48DFE3EB28CD5411184FE7E2E /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73681312612C25384C4EA0171955804C /* ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist"; sourceTree = "<group>"; };
+		7F715EC310757C55B15507E367C320CD /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		7FFEA514E5348DA423EB42E4066F1A53 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		832A2C74922D8C463CC7F4558B042A4D /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		85A8167927ABD7F79FF2894245583C21 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		87D27EF30A8FA6DE39CC1F60362799BE /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		8AE13CCA2320563D62570A907A71F2B4 /* Pods-FoodWorld-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodWorld-frameworks.sh"; sourceTree = "<group>"; };
+		8B79FE21FFAA074A1E5A9BA102534CBE /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		8DEBF67DBA9040A9A18061BD8C2B2C5B /* Pods-FoodWorld-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodWorld-acknowledgements.plist"; sourceTree = "<group>"; };
+		96D82BB7F97907DA490C29BD2E9960FF /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0AAE557DDBB57363BB89EF0BF7DCAD5 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		A32826604E6762CC79B29A90DF5FBD04 /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+OpalImagePicker.swift"; path = "OpalImagePicker/Source/UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
+		A463A317C2ACA2358DFD9DA77EB09E93 /* OpalImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpalImagePicker.release.xcconfig; sourceTree = "<group>"; };
+		A5963AEA15D197C795200C4B4162F3DB /* Pods-FoodWorld-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodWorld-Info.plist"; sourceTree = "<group>"; };
+		A9DFD3C57EBFC1F55673C2985527CC92 /* Pods-FoodWorld.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodWorld.modulemap"; sourceTree = "<group>"; };
+		AF4F606DFF3CC1FDFFFB3CF65F66F1E5 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		B6DB930B0AFFD6F3FE987A4CA7370013 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		B90E26EFF47607D5FDCBCAE0EE752E62 /* UIView+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Helper.swift"; path = "OpalImagePicker/Source/UIView+Helper.swift"; sourceTree = "<group>"; };
+		BF26868378A3320B619B292B75B537AD /* Pods-FoodWorld-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodWorld-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1B19E40526227A2C920144F7FD62BB0 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		C9AC1A2F90E40207EEDA3F328E4D100E /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		CAB4683F6DE0D94E136FFB89F1166A4C /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		CADCEC0977845A80E06A93B79B8F2FC8 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		CDDF6B14301D4CFC7CC0A82628A300D2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		CEB5CB4938671172A039DBBDB54099F6 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		D35B69557CF5A9470806D31B7CD6891F /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D77F2C558E629CC8087D36C517FB5463 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		D8BD93E241231FD83EEEBC6DF7A78EC0 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		DE62AAAB5221837CE21391F6160986C6 /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		DEE1FE78DF1DED0C3B5FD11FD71C5427 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65115D762A941706388C4A98EB00B5F /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		EA719D333FB6B071E2813BB1AF1C6EC4 /* Pods-FoodWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodWorld.release.xcconfig"; sourceTree = "<group>"; };
+		F0EB8D007CACD934A0B8010875F9E378 /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerCollectionViewCell.swift; path = OpalImagePicker/Source/ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		F952E66747A040BCBCB53C14D442C18A /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F9AC3A0BEB5612077D1CF5DAAA9E434F /* Pods-FoodWorld-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodWorld-umbrella.h"; sourceTree = "<group>"; };
+		FBF7CE8371F6E50AD07C9B84CA8446A0 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3977393A21672F0FBC6F1193739E0D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325CCDB295FFA016638075B5D2CEDD5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9D32CA37CAF70CDB586799321DEA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C56F4E20763A0252B26848900E227F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9410D703E09AE6216C1C0E397A38AE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAEF5423A0FB0555C8FE8BBAA80BCF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B40AE72B2DFB600380B4F5DBEB42DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CCDCF253D367409C3BE51EC06CCA7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F4271B6287236304D02B7694D1F88 /* OpalImagePicker.modulemap */,
+				6C947DB6B1AD371B919AB9701716927F /* OpalImagePicker-dummy.m */,
+				2D6CA89C85A6F1A5B93DFD024DECD624 /* OpalImagePicker-Info.plist */,
+				65DC851A379FE311678B6D184C00A7C4 /* OpalImagePicker-prefix.pch */,
+				605E8E00F17095D3CF03AE8E4DE78A8A /* OpalImagePicker-umbrella.h */,
+				4C7634A49A3EC4346538AF7E95F13B07 /* OpalImagePicker.debug.xcconfig */,
+				A463A317C2ACA2358DFD9DA77EB09E93 /* OpalImagePicker.release.xcconfig */,
+				73681312612C25384C4EA0171955804C /* ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpalImagePicker";
+			sourceTree = "<group>";
+		};
+		202E7A0367376D8C23B9E7AD080DC418 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				295F8A4B3A5E5755AD7DCB8DCD317759 /* CosmosAccessibility.swift */,
+				C1B19E40526227A2C920144F7FD62BB0 /* CosmosDefaultSettings.swift */,
+				AF4F606DFF3CC1FDFFFB3CF65F66F1E5 /* CosmosLayerHelper.swift */,
+				34169E1203E5DB79293987A151DE8963 /* CosmosLayers.swift */,
+				2E295FDDB927F8E701BB720110D94D17 /* CosmosLocalizedRating.swift */,
+				8B79FE21FFAA074A1E5A9BA102534CBE /* CosmosRating.swift */,
+				DE62AAAB5221837CE21391F6160986C6 /* CosmosSettings.swift */,
+				11D482A922D012B2938A55901A0B1DB9 /* CosmosSize.swift */,
+				B6DB930B0AFFD6F3FE987A4CA7370013 /* CosmosText.swift */,
+				832A2C74922D8C463CC7F4558B042A4D /* CosmosTouch.swift */,
+				DEE1FE78DF1DED0C3B5FD11FD71C5427 /* CosmosTouchTarget.swift */,
+				96D82BB7F97907DA490C29BD2E9960FF /* CosmosView.swift */,
+				D77F2C558E629CC8087D36C517FB5463 /* RightToLeft.swift */,
+				474F20DE469F13569D0320A8DF55BBB5 /* StarFillMode.swift */,
+				33F9D3F5C32E28C470F6A7ED35EA56F9 /* StarLayer.swift */,
+				C582D7EE6F188D53C670953F6EEF6A4B /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		2064B5F9F690757677D498078662177B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252150294632719D7AD9F442284A3F04 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B6E109C1B213BF327BFEC214D55B317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BB1F35410D82B84DAB96683EA89B6 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C1CCF65D808E0492FF82C12FBBCAE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
+				484151C077E2CEBBCACC4EBBF7727D98 /* OpalImagePicker */,
+				598756CCCB40FC98DA122084B3B8C925 /* OpalImagePicker-OpalImagePickerResources */,
+				31FDAEB8B32252AC6FC5837D898BDFC9 /* Pods-FoodWorld */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3279B138F74FADEC6F90DE92C4C5932A /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E03B22596B725BB85D4183361EA49C77 /* Frameworks */,
+				8290CF755FD2F44E03E872A471219E0E /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		3E0C6F1EC06DA05834804BB1EA364986 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2B6E109C1B213BF327BFEC214D55B317 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		407FD6CC866DFCB8D00BE8C06A6BDB83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6982B289E17EB4BE38E59EE39F204412 /* Pods-FoodWorld */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6982B289E17EB4BE38E59EE39F204412 /* Pods-FoodWorld */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFD3C57EBFC1F55673C2985527CC92 /* Pods-FoodWorld.modulemap */,
+				BF26868378A3320B619B292B75B537AD /* Pods-FoodWorld-acknowledgements.markdown */,
+				8DEBF67DBA9040A9A18061BD8C2B2C5B /* Pods-FoodWorld-acknowledgements.plist */,
+				02767E814CF0669BF8A76EFA5C71D4F3 /* Pods-FoodWorld-dummy.m */,
+				8AE13CCA2320563D62570A907A71F2B4 /* Pods-FoodWorld-frameworks.sh */,
+				A5963AEA15D197C795200C4B4162F3DB /* Pods-FoodWorld-Info.plist */,
+				078AE94ECD160820902ED073D3D4A5D3 /* Pods-FoodWorld-resources.sh */,
+				F9AC3A0BEB5612077D1CF5DAAA9E434F /* Pods-FoodWorld-umbrella.h */,
+				6CB2C1A8A6B7D459C7C28C0231ECC4E5 /* Pods-FoodWorld.debug.xcconfig */,
+				EA719D333FB6B071E2813BB1AF1C6EC4 /* Pods-FoodWorld.release.xcconfig */,
+			);
+			name = "Pods-FoodWorld";
+			path = "Target Support Files/Pods-FoodWorld";
+			sourceTree = "<group>";
+		};
+		71CEE282B7BB134C95A641AAC38C839A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35B69557CF5A9470806D31B7CD6891F /* SwiftyJSON.modulemap */,
+				7F715EC310757C55B15507E367C320CD /* SwiftyJSON-dummy.m */,
+				CAB4683F6DE0D94E136FFB89F1166A4C /* SwiftyJSON-Info.plist */,
+				71A665E48DFE3EB28CD5411184FE7E2E /* SwiftyJSON-prefix.pch */,
+				85A8167927ABD7F79FF2894245583C21 /* SwiftyJSON-umbrella.h */,
+				CEB5CB4938671172A039DBBDB54099F6 /* SwiftyJSON.debug.xcconfig */,
+				1FA4CA6A44529A1F6D1D6BBC8904F056 /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		72AB8833E67FC5AD00AAC6BF8FA347CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5057302797C35034CA906201443BF1FA /* GoogleMaps.debug.xcconfig */,
+				2372B6EAD848EC80E19531EA6F535C80 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		8290CF755FD2F44E03E872A471219E0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F952E66747A040BCBCB53C14D442C18A /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		95DEE0598875352A2F40AB0380DDDA6B /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				2064B5F9F690757677D498078662177B /* Frameworks */,
+				BC7204FDEC785A52C41052EFA4857DAC /* Resources */,
+				AB5A1B9D7070772DB898EFA2772C576F /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		9E990B3504F0262C71F0DEC52E50C32B /* OpalImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				19D5B700F203546DB338F94B4316E782 /* Bundle+Helper.swift */,
+				F0EB8D007CACD934A0B8010875F9E378 /* ImagePickerCollectionViewCell.swift */,
+				428F3B5A93B6E5849542F12282560322 /* OpalImagePickerCollectionViewLayout.swift */,
+				07C16090DC2198739F22756615DF168B /* OpalImagePickerConfiguration.swift */,
+				505D1EF8D1C85896C387F0CF23BAAF57 /* OpalImagePickerController.swift */,
+				176BE0A0DC05B3D2B5A4E2CE2D94C283 /* OpalImagePickerRootViewController.swift */,
+				046DD04D9B43FB052B988784B09A74F1 /* TimeInterval+String.swift */,
+				B90E26EFF47607D5FDCBCAE0EE752E62 /* UIView+Helper.swift */,
+				A32826604E6762CC79B29A90DF5FBD04 /* UIViewController+OpalImagePicker.swift */,
+				DAF464F555CCDCF10833D9131806E9DE /* Resources */,
+				16CCDCF253D367409C3BE51EC06CCA7B /* Support Files */,
+			);
+			name = OpalImagePicker;
+			path = OpalImagePicker;
+			sourceTree = "<group>";
+		};
+		AB5A1B9D7070772DB898EFA2772C576F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65115D762A941706388C4A98EB00B5F /* GooglePlaces.debug.xcconfig */,
+				C9AC1A2F90E40207EEDA3F328E4D100E /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		BC7204FDEC785A52C41052EFA4857DAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CADCEC0977845A80E06A93B79B8F2FC8 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C582D7EE6F188D53C670953F6EEF6A4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D27EF30A8FA6DE39CC1F60362799BE /* Cosmos.modulemap */,
+				7FFEA514E5348DA423EB42E4066F1A53 /* Cosmos-dummy.m */,
+				FBF7CE8371F6E50AD07C9B84CA8446A0 /* Cosmos-Info.plist */,
+				D8BD93E241231FD83EEEBC6DF7A78EC0 /* Cosmos-prefix.pch */,
+				A0AAE557DDBB57363BB89EF0BF7DCAD5 /* Cosmos-umbrella.h */,
+				0E5063FA88D1807E39B9E6DB0BBF7851 /* Cosmos.debug.xcconfig */,
+				2A2A50CB25880DEE3F1868F106FAFB22 /* Cosmos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		C9031E972B81DF037CAEBF455BEEA489 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				34CD396153CFF6837EE22B494D3E5553 /* SwiftyJSON.swift */,
+				71CEE282B7BB134C95A641AAC38C839A /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F9CA52594156E5C9FB1E6B776304B777 /* Pods */,
+				2C1CCF65D808E0492FF82C12FBBCAE05 /* Products */,
+				407FD6CC866DFCB8D00BE8C06A6BDB83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF464F555CCDCF10833D9131806E9DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5990C5E02C6734E1DD0EBE133CDCB0B4 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E03B22596B725BB85D4183361EA49C77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDDF6B14301D4CFC7CC0A82628A300D2 /* GoogleMaps.framework */,
+				00F66D4D00D934E19913E6EEF5247A88 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9CA52594156E5C9FB1E6B776304B777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				202E7A0367376D8C23B9E7AD080DC418 /* Cosmos */,
+				FC6C862B1B941D1402AC469ABF1755F2 /* GoogleMaps */,
+				95DEE0598875352A2F40AB0380DDDA6B /* GooglePlaces */,
+				9E990B3504F0262C71F0DEC52E50C32B /* OpalImagePicker */,
+				C9031E972B81DF037CAEBF455BEEA489 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC6C862B1B941D1402AC469ABF1755F2 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C6F1EC06DA05834804BB1EA364986 /* Base */,
+				3279B138F74FADEC6F90DE92C4C5932A /* Maps */,
+				72AB8833E67FC5AD00AAC6BF8FA347CA /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40097E5779029102CCD9C3E4EE752DDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41145698F7DF35B05606D01197454CFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115142039C23F91827E6961CC479F05 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED51571B593F3D21354EBB5AB19DD0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F82734F7A6BC517E6282A23FF6AAE /* Pods-FoodWorld-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF4CEC4A1823C19AF83D6BDE87DDDB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD76A483D082ECBB29B0BE9906B3712 /* OpalImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5531D3CEF3EBE4420E9BFCEFA9DD7F6 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				40097E5779029102CCD9C3E4EE752DDF /* Headers */,
+				B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */,
+				6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */,
+				C77B64B25EBB18C8D211C061D92B0B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */;
+			productType = "com.apple.product-type.framework";
+		};
+		20485D6CEA89F18A813D04A2DFF7D56F /* OpalImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F30A8EE215993EC7A2FAF6238E09D4 /* Build configuration list for PBXNativeTarget "OpalImagePicker" */;
+			buildPhases = (
+				9DF4CEC4A1823C19AF83D6BDE87DDDB6 /* Headers */,
+				ADE1937F4268BF684C5104A9273A2654 /* Sources */,
+				9410D703E09AE6216C1C0E397A38AE14 /* Frameworks */,
+				286C8B52AEC1002743E8FBDFCE8BB520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2687F45FBAFA69B2A8947FC299BE8B /* PBXTargetDependency */,
+			);
+			name = OpalImagePicker;
+			productName = OpalImagePicker;
+			productReference = 484151C077E2CEBBCACC4EBBF7727D98 /* OpalImagePicker */;
+			productType = "com.apple.product-type.framework";
+		};
+		265D78AF28F751DE873B43A5E2BFD8C2 /* OpalImagePicker-OpalImagePickerResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1A15BFC5DC06A955815836F589E9A3 /* Build configuration list for PBXNativeTarget "OpalImagePicker-OpalImagePickerResources" */;
+			buildPhases = (
+				ED5EA857B090CCF128E40D61AF388B5E /* Sources */,
+				A1B40AE72B2DFB600380B4F5DBEB42DB /* Frameworks */,
+				F1DB50B16F516BB01E91295F861A62CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpalImagePicker-OpalImagePickerResources";
+			productName = OpalImagePickerResources;
+			productReference = 598756CCCB40FC98DA122084B3B8C925 /* OpalImagePicker-OpalImagePickerResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B5F00578C83F12B63D3F42A4C29097B4 /* Pods-FoodWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0375679FAE4D0BBDBD3E5CF9191BE58C /* Build configuration list for PBXNativeTarget "Pods-FoodWorld" */;
+			buildPhases = (
+				4ED51571B593F3D21354EBB5AB19DD0C /* Headers */,
+				15D643DE6A3B735CFA51D4AA19A88F2C /* Sources */,
+				5E9D32CA37CAF70CDB586799321DEA4D /* Frameworks */,
+				C784318A22DA61F999A49A593489B98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E8C8897DE649B79316701428E3DC3D /* PBXTargetDependency */,
+				B7E9991908F6636520B460B0E07998A8 /* PBXTargetDependency */,
+				856781C1B194F09FEB92EDED82952DA1 /* PBXTargetDependency */,
+				AB00791F19E652792527654B593129C5 /* PBXTargetDependency */,
+				FB526BFF27BEF6D5AD3614E41FBBC8FC /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodWorld";
+			productName = Pods_FoodWorld;
+			productReference = 31FDAEB8B32252AC6FC5837D898BDFC9 /* Pods-FoodWorld */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2490E828D479276A7E0AFBA515DD77FA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				41145698F7DF35B05606D01197454CFC /* Headers */,
+				7B5BEB32F210EFE38F7D58FF8A1CC2DE /* Sources */,
+				3977393A21672F0FBC6F1193739E0D15 /* Frameworks */,
+				B05597C458D738E12F170EAC515F8483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C1CCF65D808E0492FF82C12FBBCAE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				20485D6CEA89F18A813D04A2DFF7D56F /* OpalImagePicker */,
+				265D78AF28F751DE873B43A5E2BFD8C2 /* OpalImagePicker-OpalImagePickerResources */,
+				B5F00578C83F12B63D3F42A4C29097B4 /* Pods-FoodWorld */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286C8B52AEC1002743E8FBDFCE8BB520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65440672B555F566C9CE4995FE0C353 /* OpalImagePicker-OpalImagePickerResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05597C458D738E12F170EAC515F8483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77B64B25EBB18C8D211C061D92B0B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C784318A22DA61F999A49A593489B98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DB50B16F516BB01E91295F861A62CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CC537B085657A4F08CDC7D537C7499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D643DE6A3B735CFA51D4AA19A88F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA013139F934A391819FCC8BA1564F68 /* Pods-FoodWorld-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5BEB32F210EFE38F7D58FF8A1CC2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */,
+				5FA526557719FDBE81B1974B113CF600 /* SwiftyJSON-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE1937F4268BF684C5104A9273A2654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6B03385F28A2497A7140EEE4D871A6 /* Bundle+Helper.swift in Sources */,
+				B4180ABCACAF8D2A681C09BEFC74CF41 /* ImagePickerCollectionViewCell.swift in Sources */,
+				728CD1A26C49670E6638FA19AC10FC04 /* OpalImagePicker-dummy.m in Sources */,
+				8916A7DBD915AB122AAC6DE16109B218 /* OpalImagePickerCollectionViewLayout.swift in Sources */,
+				ABBFF480AA1F6216C1A288F096C6D963 /* OpalImagePickerConfiguration.swift in Sources */,
+				45F931E27068F407411AB97EBA6062D7 /* OpalImagePickerController.swift in Sources */,
+				1AB0D41CAC7FB368B357989E49DED6BB /* OpalImagePickerRootViewController.swift in Sources */,
+				56A66928C7572DEE5C0647491C97B56C /* TimeInterval+String.swift in Sources */,
+				E24C0B725094E3BB1048C5B589332F2D /* UIView+Helper.swift in Sources */,
+				AF156256588FB9B887728C18C6FD6B59 /* UIViewController+OpalImagePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */,
+				772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */,
+				61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */,
+				99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */,
+				ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */,
+				CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */,
+				3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */,
+				4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */,
+				8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */,
+				1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */,
+				7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */,
+				449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */,
+				EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */,
+				9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */,
+				5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */,
+				7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5EA857B090CCF128E40D61AF388B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E8C8897DE649B79316701428E3DC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = CDF59F4B76786F2DDD5237297D308901 /* PBXContainerItemProxy */;
+		};
+		856781C1B194F09FEB92EDED82952DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 89387C3C9F1C739FEC57FC9E1EED88BC /* PBXContainerItemProxy */;
+		};
+		9A2687F45FBAFA69B2A8947FC299BE8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpalImagePicker-OpalImagePickerResources";
+			target = 265D78AF28F751DE873B43A5E2BFD8C2 /* OpalImagePicker-OpalImagePickerResources */;
+			targetProxy = 0A43930285AD766AF5B9D6FDEC296A24 /* PBXContainerItemProxy */;
+		};
+		AB00791F19E652792527654B593129C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpalImagePicker;
+			target = 20485D6CEA89F18A813D04A2DFF7D56F /* OpalImagePicker */;
+			targetProxy = 9C7518F86C601DEDE2F2E9F1AAFACD74 /* PBXContainerItemProxy */;
+		};
+		B7E9991908F6636520B460B0E07998A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 569329E2D1F3729B3A5EB7F0B9DB1317 /* PBXContainerItemProxy */;
+		};
+		FB526BFF27BEF6D5AD3614E41FBBC8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 7894EC0FFD0E0DD5607AA9E321535511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24069BB3B6E16DED8CC95987BEACAF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AC1A2F90E40207EEDA3F328E4D100E /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C8A5D0FE22AF475E584A806D67B248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A463A317C2ACA2358DFD9DA77EB09E93 /* OpalImagePicker.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OpalImagePicker";
+				IBSC_MODULE = OpalImagePicker;
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = OpalImagePickerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		531C7650F172F9CD3DDDF0D20BFC3564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB2C1A8A6B7D459C7C28C0231ECC4E5 /* Pods-FoodWorld.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodWorld/Pods-FoodWorld-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodWorld/Pods-FoodWorld.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5834AEB702FC0743E58BBE60D611434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5057302797C35034CA906201443BF1FA /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B107ED17C6C18DC4B8B4D3356E049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2372B6EAD848EC80E19531EA6F535C80 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5063FA88D1807E39B9E6DB0BBF7851 /* Cosmos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71BB559944F856F1C983F26EEE67761B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7634A49A3EC4346538AF7E95F13B07 /* OpalImagePicker.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OpalImagePicker";
+				IBSC_MODULE = OpalImagePicker;
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/ResourceBundle-OpalImagePickerResources-OpalImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = OpalImagePickerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7510D213E1C2621B4A6F3D51F922307D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A463A317C2ACA2358DFD9DA77EB09E93 /* OpalImagePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpalImagePicker/OpalImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = OpalImagePicker;
+				PRODUCT_NAME = OpalImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75AD64D8110036DE5DD7FFE1A5310AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA719D333FB6B071E2813BB1AF1C6EC4 /* Pods-FoodWorld.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodWorld/Pods-FoodWorld-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodWorld/Pods-FoodWorld.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A9EEBF12B0E3733A640B1F7870912751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA4CA6A44529A1F6D1D6BBC8904F056 /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE615B147CFAD771F707D94C088BB397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7634A49A3EC4346538AF7E95F13B07 /* OpalImagePicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpalImagePicker/OpalImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpalImagePicker/OpalImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = OpalImagePicker;
+				PRODUCT_NAME = OpalImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD0E5E3EFB0F4CCE246B60BB04FAB85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB5CB4938671172A039DBBDB54099F6 /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65115D762A941706388C4A98EB00B5F /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78C1BA85703BCE69743B7C85B847990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2A50CB25880DEE3F1868F106FAFB22 /* Cosmos.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0375679FAE4D0BBDBD3E5CF9191BE58C /* Build configuration list for PBXNativeTarget "Pods-FoodWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531C7650F172F9CD3DDDF0D20BFC3564 /* Debug */,
+				75AD64D8110036DE5DD7FFE1A5310AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2490E828D479276A7E0AFBA515DD77FA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0E5E3EFB0F4CCE246B60BB04FAB85B /* Debug */,
+				A9EEBF12B0E3733A640B1F7870912751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834AEB702FC0743E58BBE60D611434A /* Debug */,
+				67B107ED17C6C18DC4B8B4D3356E049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */,
+				24069BB3B6E16DED8CC95987BEACAF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F30A8EE215993EC7A2FAF6238E09D4 /* Build configuration list for PBXNativeTarget "OpalImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE615B147CFAD771F707D94C088BB397 /* Debug */,
+				7510D213E1C2621B4A6F3D51F922307D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1A15BFC5DC06A955815836F589E9A3 /* Build configuration list for PBXNativeTarget "OpalImagePicker-OpalImagePickerResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BB559944F856F1C983F26EEE67761B /* Debug */,
+				29C8A5D0FE22AF475E584A806D67B248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5531D3CEF3EBE4420E9BFCEFA9DD7F6 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */,
+				C78C1BA85703BCE69743B7C85B847990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
